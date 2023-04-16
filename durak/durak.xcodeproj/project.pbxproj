@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F0A53AF29EAB0D00026A440 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0A53AE29EAB0D00026A440 /* CardView.swift */; };
+		2F8AABDB29C744CD0016436A /* durakApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8AABDA29C744CD0016436A /* durakApp.swift */; };
+		2F8AABDD29C744CD0016436A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8AABDC29C744CD0016436A /* ContentView.swift */; };
+		2F8AABDF29C744CE0016436A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F8AABDE29C744CE0016436A /* Assets.xcassets */; };
+		2F8AABE229C744CE0016436A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F8AABE129C744CE0016436A /* Preview Assets.xcassets */; };
+		2F8AABE929C7450D0016436A /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8AABE829C7450C0016436A /* Card.swift */; };
+		2F8AABED29C7460D0016436A /* Suit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8AABEC29C7460D0016436A /* Suit.swift */; };
+		2F8AABEF29C7480B0016436A /* Denomination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8AABEE29C7480B0016436A /* Denomination.swift */; };
+		2FE4E48529D0761900166718 /* DurakEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE4E48429D0761900166718 /* DurakEngine.swift */; };
+		2FE4E48D29D0766000166718 /* durakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE4E48C29D0766000166718 /* durakTests.swift */; };
+		2FE4E49329D0766D00166718 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8AABE829C7450C0016436A /* Card.swift */; };
+		2FE4E49429D0767000166718 /* Denomination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8AABEE29C7480B0016436A /* Denomination.swift */; };
+		2FE4E49529D0767300166718 /* Suit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8AABEC29C7460D0016436A /* Suit.swift */; };
+		2FE4E49629D076BB00166718 /* DurakEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE4E48429D0761900166718 /* DurakEngine.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FE4E48E29D0766000166718 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F8AABCF29C744CD0016436A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F8AABD629C744CD0016436A;
+			remoteInfo = durak;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F0A53AE29EAB0D00026A440 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		2F8AABD729C744CD0016436A /* durak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = durak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F8AABDA29C744CD0016436A /* durakApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = durakApp.swift; sourceTree = "<group>"; };
+		2F8AABDC29C744CD0016436A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2F8AABDE29C744CE0016436A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F8AABE129C744CE0016436A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2F8AABE829C7450C0016436A /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		2F8AABEC29C7460D0016436A /* Suit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Suit.swift; sourceTree = "<group>"; };
+		2F8AABEE29C7480B0016436A /* Denomination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Denomination.swift; sourceTree = "<group>"; };
+		2FE4E48429D0761900166718 /* DurakEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DurakEngine.swift; sourceTree = "<group>"; };
+		2FE4E48A29D0766000166718 /* durakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = durakTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FE4E48C29D0766000166718 /* durakTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = durakTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F8AABD429C744CD0016436A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FE4E48729D0766000166718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F8AABCE29C744CD0016436A = {
+			isa = PBXGroup;
+			children = (
+				2F8AABD929C744CD0016436A /* durak */,
+				2FE4E48B29D0766000166718 /* durakTests */,
+				2F8AABD829C744CD0016436A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F8AABD829C744CD0016436A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F8AABD729C744CD0016436A /* durak.app */,
+				2FE4E48A29D0766000166718 /* durakTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F8AABD929C744CD0016436A /* durak */ = {
+			isa = PBXGroup;
+			children = (
+				2F8AABDA29C744CD0016436A /* durakApp.swift */,
+				2F8AABDC29C744CD0016436A /* ContentView.swift */,
+				2F8AABEC29C7460D0016436A /* Suit.swift */,
+				2F8AABEE29C7480B0016436A /* Denomination.swift */,
+				2F8AABE829C7450C0016436A /* Card.swift */,
+				2FE4E48429D0761900166718 /* DurakEngine.swift */,
+				2F8AABDE29C744CE0016436A /* Assets.xcassets */,
+				2F8AABE029C744CE0016436A /* Preview Content */,
+				2F0A53AE29EAB0D00026A440 /* CardView.swift */,
+			);
+			path = durak;
+			sourceTree = "<group>";
+		};
+		2F8AABE029C744CE0016436A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2F8AABE129C744CE0016436A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2FE4E48B29D0766000166718 /* durakTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FE4E48C29D0766000166718 /* durakTests.swift */,
+			);
+			path = durakTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F8AABD629C744CD0016436A /* durak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F8AABE529C744CE0016436A /* Build configuration list for PBXNativeTarget "durak" */;
+			buildPhases = (
+				2F8AABD329C744CD0016436A /* Sources */,
+				2F8AABD429C744CD0016436A /* Frameworks */,
+				2F8AABD529C744CD0016436A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = durak;
+			productName = durak;
+			productReference = 2F8AABD729C744CD0016436A /* durak.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FE4E48929D0766000166718 /* durakTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FE4E49029D0766000166718 /* Build configuration list for PBXNativeTarget "durakTests" */;
+			buildPhases = (
+				2FE4E48629D0766000166718 /* Sources */,
+				2FE4E48729D0766000166718 /* Frameworks */,
+				2FE4E48829D0766000166718 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FE4E48F29D0766000166718 /* PBXTargetDependency */,
+			);
+			name = durakTests;
+			productName = durakTests;
+			productReference = 2FE4E48A29D0766000166718 /* durakTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F8AABCF29C744CD0016436A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					2F8AABD629C744CD0016436A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					2FE4E48929D0766000166718 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 2F8AABD629C744CD0016436A;
+					};
+				};
+			};
+			buildConfigurationList = 2F8AABD229C744CD0016436A /* Build configuration list for PBXProject "durak" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F8AABCE29C744CD0016436A;
+			productRefGroup = 2F8AABD829C744CD0016436A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F8AABD629C744CD0016436A /* durak */,
+				2FE4E48929D0766000166718 /* durakTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F8AABD529C744CD0016436A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F8AABE229C744CE0016436A /* Preview Assets.xcassets in Resources */,
+				2F8AABDF29C744CE0016436A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FE4E48829D0766000166718 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F8AABD329C744CD0016436A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F8AABDD29C744CD0016436A /* ContentView.swift in Sources */,
+				2F8AABED29C7460D0016436A /* Suit.swift in Sources */,
+				2F8AABEF29C7480B0016436A /* Denomination.swift in Sources */,
+				2FE4E48529D0761900166718 /* DurakEngine.swift in Sources */,
+				2F8AABE929C7450D0016436A /* Card.swift in Sources */,
+				2F0A53AF29EAB0D00026A440 /* CardView.swift in Sources */,
+				2F8AABDB29C744CD0016436A /* durakApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FE4E48629D0766000166718 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FE4E48D29D0766000166718 /* durakTests.swift in Sources */,
+				2FE4E49329D0766D00166718 /* Card.swift in Sources */,
+				2FE4E49529D0767300166718 /* Suit.swift in Sources */,
+				2FE4E49429D0767000166718 /* Denomination.swift in Sources */,
+				2FE4E49629D076BB00166718 /* DurakEngine.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FE4E48F29D0766000166718 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F8AABD629C744CD0016436A /* durak */;
+			targetProxy = 2FE4E48E29D0766000166718 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2F8AABE329C744CE0016436A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2F8AABE429C744CE0016436A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F8AABE629C744CE0016436A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"durak/Preview Content\"";
+				DEVELOPMENT_TEAM = 67SGPRPP86;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vot.eto.gg.durak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F8AABE729C744CE0016436A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"durak/Preview Content\"";
+				DEVELOPMENT_TEAM = 67SGPRPP86;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vot.eto.gg.durak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2FE4E49129D0766000166718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 67SGPRPP86;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vot.eto.gg.durakTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/durak.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/durak";
+			};
+			name = Debug;
+		};
+		2FE4E49229D0766000166718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 67SGPRPP86;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vot.eto.gg.durakTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/durak.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/durak";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F8AABD229C744CD0016436A /* Build configuration list for PBXProject "durak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F8AABE329C744CE0016436A /* Debug */,
+				2F8AABE429C744CE0016436A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F8AABE529C744CE0016436A /* Build configuration list for PBXNativeTarget "durak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F8AABE629C744CE0016436A /* Debug */,
+				2F8AABE729C744CE0016436A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FE4E49029D0766000166718 /* Build configuration list for PBXNativeTarget "durakTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FE4E49129D0766000166718 /* Debug */,
+				2FE4E49229D0766000166718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F8AABCF29C744CD0016436A /* Project object */;
+}
